@@ -6,7 +6,7 @@ items:
 1. The game must be submitted as a zip file, which unzips into a separate directory. (I will provide the script to unzip and add your game to the database, more on that in [Development Process](https://github.com/mustafafu/drecco#development-process).)
 2. The main entry point to the game must be index.php. The CIMS server only runs PHP scripts, so your game's main page will have to be in PHP. From there, you can probably run the game via Javascript. (See the examples in /games/)
 
-I have copied the current server and games over to this github repository. If you want to take a look at the code. I can also provide you a zip of the whole thing over email if you want. (mfo254 [at] nyu.edu )
+I have copied the current server and games over to this github repository. If you want to take a look at the code. I can also provide you a zip of the whole thing over email if you want. (amr1215 [at] nyu.edu )
 You can see the current games in /games/ and use them for interface etc.
 
 ## Development Process
@@ -14,7 +14,7 @@ I think the best way to go about this is to build your own copy of Dr.Ecco websi
 
 ### Setting up the database:
 * Go to [CIMS guide](https://cims.nyu.edu/webapps/content/systems/userservices/databases) and follow instructions there and create a database.
-  * create database called drecco, and your net id will be prepend as mfo254_drecco.
+  * create database called drecco, and your net id will be prepend as amr1215_drecco.
 
 ### Changing the required parts to run your web page and connect to database.
 You need to change the base url according to your netid.
@@ -73,8 +73,8 @@ Now simply use the script to unzip and add your game to db. After this the scrip
 python3 p3_add_game.py -gn <your_game_name> -gp <your_game_folder> 
 ```
 
-You should be able to see your game in your own copy of [Dr.Ecco](https://cims.nyu.edu/~mfo254/drecco/)
+You should be able to see your game in your own copy of [Dr.Ecco](https://cims.nyu.edu/~amr1215/drecco/)
 
 
 ## Updatind the Dr.Ecco page
-After you are done with developing the game, you can send me \*.zip of your game folder which will unzip to a folder with **same name** (*without space* is preferred :smile: ). I will take care of the rest. I will host the game on my copy of [Dr.Ecco](https://cims.nyu.edu/~mfo254/drecco/), make sure everything is good to go and finally update the real [Dr.Ecco](https://cims.nyu.edu/drecco2016/).
+After you are done with developing the game, you can send me \*.zip of your game folder which will unzip to a folder with **same name** (*without space* is preferred :smile: ). I will take care of the rest. I will host the game on my copy of [Dr.Ecco](https://cims.nyu.edu/~amr1215/drecco/), make sure everything is good to go and finally update the real [Dr.Ecco](https://cims.nyu.edu/drecco2016/).
